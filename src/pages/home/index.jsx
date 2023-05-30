@@ -1,7 +1,8 @@
 import { useRef } from "react";
-import logo from "../../assets/images/profile.jpg";
+import logo from "../../assets/images/profile2.jpg";
 import TextTyping from "./texTyping";
 import "../../App.css";
+import { Link } from "react-router-dom";
 function Home() {
   const buttonRef = useRef();
   return (
@@ -29,7 +30,7 @@ function Home() {
         <h4 className="text-[18px] lg:text-[20px] mb-[30px]">
           Laravel | React | NodeJS
         </h4>
-
+        <Link to="/project">
         <button class="bg-white text-black font-bold py-3 px-5 mt-3 rounded items-center w-3/4">
           <div className="px-2 inline">
             <span className=" mr-4">Know More </span>
@@ -48,6 +49,7 @@ function Home() {
             </span>
           </div>
         </button>
+        </Link>
       </div>
     </div>
   );

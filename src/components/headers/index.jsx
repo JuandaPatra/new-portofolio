@@ -17,7 +17,7 @@ function Header() {
         <nav className="bg-white py-2 px-5 w-full md:py-4">
           <div className="container px-4 mx-auto md:flex md:items-center">
             <div className="flex justify-between items-center">
-              <a href="#" className="font-bold text-xl text-indigo-600">
+              <a href="/" className="font-bold text-xl text-indigo-600">
                 JP
               </a>
               <span className=" ml-4">Rahmad Juanda Patra</span>
@@ -34,13 +34,13 @@ function Header() {
               id="navbar-collapse"
             >
               <a
-                href="#"
+                href="/"
                 className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded "
               >
                 Home
               </a>
               <a
-                href="#"
+                href="/about"
                 className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 About Me
@@ -53,7 +53,7 @@ function Header() {
                 Blog
               </a>
               <a
-                href="#"
+                href="/project"
                 className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 Projects

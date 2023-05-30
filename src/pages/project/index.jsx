@@ -1,7 +1,7 @@
 function Project(){
     return(
         <>
-        <h3 className="text-white text-center">Ini adalah halamam Project</h3>
+        <h3 className="text-white text-center">On Progress</h3>
         </>
     )
 }
