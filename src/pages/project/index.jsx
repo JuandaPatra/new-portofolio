@@ -7,7 +7,7 @@ function Project() {
         <div className="flex flex-row flex-wrap">
           
           <div className="basis-full md:basis-1/2 lg:basis-1/3 mb-10 ">
-            <div class="prose max-w-sm w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <div class="group max-w-sm w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-300 dark:bg-white">
                 <svg
                   class="w-6 h-6 fill-current text-white dark:text-gray-800"
