@@ -2,6 +2,7 @@ import "./App.css";
 import ParticlesBackground from "./components/ParticleBackground";
 import Header from "./components/headers";
 import Footer from "./components/footers";
+import Contact from "./pages/contact";
 import Home from "./pages/home";
 import Particles from "react-tsparticles";
 import { LoadFull } from "tsparticles";
@@ -95,6 +96,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           </BrowserRouter>
             {/* <Home /> */}
