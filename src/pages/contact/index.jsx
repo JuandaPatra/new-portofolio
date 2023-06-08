@@ -29,10 +29,10 @@ function Contact() {
     let name = state.name;
     let email = state.email;
     let message = state.message;
-
+    const API = `https://api.portofolio.juandap.com/api/send`
 
     axios
-      .post("http://127.0.0.1:8000/api/send", {
+      .post(API, {
         name,
         email,
         message,
@@ -55,11 +55,11 @@ function Contact() {
         Get in touch
       </h3>
 
-      <div className=" container mx-auto">
-        <div className="w-1/2 mx-auto ">
+      <div className=" container mx-auto px-3 lg:px-0">
+        <div className="w-full lg:w-1/2 mx-auto ">
           <div className="flex flex-wrap">
-            <div className="basis-1/2">
-              <div class="group relative w-72 md:w-80 lg:w-[95%] ">
+            <div className="basis-full lg:basis-1/2">
+              <div class="group relative w-100 md:w-80 lg:w-[95%] ">
                 <label
                   for="1"
                   class="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
@@ -74,8 +74,8 @@ function Contact() {
                 />
               </div>
             </div>
-            <div className="basis-1/2">
-              <div class="group relative w-72 md:w-80 lg:w-[96%] ">
+            <div className="basis-full lg:basis-1/2">
+              <div class="group relative w-100 md:w-80 lg:w-[96%] ">
                 <label
                   for="1"
                   class="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
@@ -103,7 +103,7 @@ function Contact() {
                 cols="30"
                 rows="10"
                 value={state.message} onChange={(e)=>messagehandleChange(e)}
-                className="w-[98%] rounded-md bg-gray-50 px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400"
+                className="w-full lg:w-[98%] rounded-md bg-gray-50 px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400"
               ></textarea>
             </div>
             <div className="basis-full mt-[10px] group">
