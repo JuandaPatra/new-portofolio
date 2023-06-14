@@ -69,6 +69,7 @@ function Contact() {
                 <input
                   id="1"
                   type="text"
+                  placeholder='input your name'
                   value={state.name} onChange={(e)=>namehandleChange(e)}
                   class="peer h-10 w-full rounded-md bg-gray-50 px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400"
                 />
@@ -85,6 +86,7 @@ function Contact() {
                 <input
                   id="1"
                   type="email"
+                  placeholder='input your email'
                   value={state.email} onChange={(e)=>emailhandleChange(e)}
                   class="peer h-10 w-full rounded-md bg-gray-50 px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400"
                 />
@@ -102,6 +104,7 @@ function Contact() {
                 id="1"
                 cols="30"
                 rows="10"
+                placeholder='write your messages'
                 value={state.message} onChange={(e)=>messagehandleChange(e)}
                 className="w-full lg:w-[98%] rounded-md bg-gray-50 px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400"
               ></textarea>

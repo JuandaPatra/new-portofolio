@@ -1,11 +1,12 @@
 function Project() {
   return (
     <>
-      <h3 className="text-white text-center text-lg mb-5 lg:mb-10" >Projects that I've worked on</h3>
+      <h3 className="text-white text-center text-lg mb-5 lg:mb-10">
+        Projects that I've worked on
+      </h3>
 
       <div className=" px-3 lg:px-0 ">
         <div className="flex flex-row flex-wrap">
-          
           <div className="basis-full md:basis-1/2 lg:basis-1/3 mb-10 ">
             <div class="group max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-300 dark:bg-white">
@@ -23,15 +24,14 @@ function Project() {
                   ></path>
                 </svg>
                 <div class="mx-3 text-lg font-semibold text-white dark:text-gray-800">
-                Travelbliss
+                  Travelbliss
                 </div>
               </div>
-              <div class="px-6 py-4">
+              <div class="px-6 py-4 h-[450px]">
                 <h1 class="text-lg text-gray-800 dark:text-white flex">
-                  Driverless vehicle fleet monitoring tool
+                  Travel Agency E-Commerce
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
-                  
                   Contributions
                 </h3>
                 <div class="grid">
@@ -49,7 +49,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Designing and building new components
+                    Develop Fullstack app
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -65,7 +65,8 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Writing unit tests using Jest
+                    Develop whole Content Management System, includes implements
+                    cron job system
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -81,7 +82,8 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Using Redux to manage state
+                    Integrate with 3rd package Google Login, Google Recaptcha,
+                    Laravel Pusher
                   </div>
                 </div>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
@@ -89,41 +91,35 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                    className="mt-2 flex flex-wrap"
-                    aria-label="Technologies used"
-                  >
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        React
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Laravel
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        SCSS
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Javascript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        PHP
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Linux
-                      </div>
-                    </li>
-                    
-                  </ul>
+                  className="mt-2 flex flex-wrap"
+                  aria-label="Technologies used"
+                >
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Laravel
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Tailwind
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Javascript
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      PHP
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Linux
+                    </div>
+                  </li>
+                </ul>
                 <div class="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                   <a class="mr-2 text-gray-800 cursor-pointer dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
                     <svg
@@ -144,7 +140,7 @@ function Project() {
               </div>
             </div>
           </div>
-          
+
           <div className=" basis-full md:basis-1/2 lg:basis-1/3 mb-10">
             <div class="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-300 dark:bg-white">
@@ -165,9 +161,9 @@ function Project() {
                   Bina Niaga Multiusaha
                 </div>
               </div>
-              <div class="px-6 py-4">
+              <div class="px-6 py-4 h-[450px]">
                 <h1 class="text-lg text-gray-800 dark:text-white flex">
-                  Driverless vehicle fleet monitoring tool
+                  Company Website
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
                   Contributions
@@ -187,7 +183,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Designing and building new components
+                    Develop and integrate frontend from backend controllers.
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -203,7 +199,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Writing unit tests using Jest
+                    Deploy website in production
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -219,7 +215,8 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Using Redux to manage state
+                    Add email sender , export data features in content
+                    management System
                   </div>
                 </div>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
@@ -227,41 +224,35 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                    className="mt-2 flex flex-wrap"
-                    aria-label="Technologies used"
-                  >
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        React
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Laravel
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        SCSS
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Javascript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        PHP
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Linux
-                      </div>
-                    </li>
-                    
-                  </ul>
+                  className="mt-2 flex flex-wrap"
+                  aria-label="Technologies used"
+                >
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Laravel
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      SCSS
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Javascript
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      PHP
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Linux
+                    </div>
+                  </li>
+                </ul>
                 <div class="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                   <a class="mr-2 text-gray-800 cursor-pointer dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
                     <svg
@@ -302,7 +293,7 @@ function Project() {
                   Starfleet
                 </div>
               </div>
-              <div class="px-6 py-4">
+              <div class="px-6 py-4 h-[450px]">
                 <h1 class="text-lg text-gray-800 dark:text-white flex">
                   Driverless vehicle fleet monitoring tool
                 </h1>
@@ -365,41 +356,40 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                    className="mt-2 flex flex-wrap"
-                    aria-label="Technologies used"
-                  >
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        React
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Laravel
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        SCSS
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Javascript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        PHP
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Linux
-                      </div>
-                    </li>
-                    
-                  </ul>
+                  className="mt-2 flex flex-wrap"
+                  aria-label="Technologies used"
+                >
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      React
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Laravel
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      SCSS
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Javascript
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      PHP
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Linux
+                    </div>
+                  </li>
+                </ul>
                 <div class="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                   <a class="mr-2 text-gray-800 cursor-pointer dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
                     <svg
@@ -437,12 +427,12 @@ function Project() {
                   ></path>
                 </svg>
                 <div class="mx-3 text-lg font-semibold text-white dark:text-gray-800">
-                  Starfleet
+                  Bintarojayahighrise
                 </div>
               </div>
-              <div class="px-6 py-4">
+              <div class="px-6 py-4 h-[450px]">
                 <h1 class="text-lg text-gray-800 dark:text-white flex">
-                  Driverless vehicle fleet monitoring tool
+                  Marketing website
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
                   {" "}
@@ -463,7 +453,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Designing and building new components
+                    Maintaining anchestor code
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -479,7 +469,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Writing unit tests using Jest
+                    Add styling css based on new design
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -495,7 +485,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Using Redux to manage state
+                    Create and develop new pages 
                   </div>
                 </div>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
@@ -503,41 +493,40 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                    className="mt-2 flex flex-wrap"
-                    aria-label="Technologies used"
-                  >
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        React
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Laravel
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        SCSS
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Javascript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        PHP
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                        Linux
-                      </div>
-                    </li>
-                    
-                  </ul>
+                  className="mt-2 flex flex-wrap"
+                  aria-label="Technologies used"
+                >
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      JQuery
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Laravel
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      SCSS
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Javascript
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      PHP
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Linux
+                    </div>
+                  </li>
+                </ul>
                 <div class="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                   <a class="mr-2 text-gray-800 cursor-pointer dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
                     <svg
@@ -558,7 +547,6 @@ function Project() {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </>
