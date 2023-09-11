@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import axios from "axios";
 function Contact() {
   const [state, setState] = useState({
@@ -7,6 +7,10 @@ function Contact() {
     message : "",
     show: "",
   });
+
+  useEffect(() => {
+    document.title = "Contact Page";
+  }, []);
 
   const namehandleChange = (e) => {
     setState({

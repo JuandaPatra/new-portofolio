@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 function Project() {
+  useEffect(() => {
+    document.title = "Project Page";
+  }, []);
   return (
     <>
-      <h3 className="text-white text-center text-lg mb-5 lg:mb-10">
+      <h3 className="text-white text-center text-[30px] mb-5 lg:mb-10">
         Projects that I've worked on
       </h3>
 
@@ -28,13 +32,13 @@ function Project() {
                 </div>
               </div>
               <div class="px-6 py-4 h-[450px]">
-                <h1 class="text-lg text-gray-800 dark:text-white flex">
+                <h1 class="text-lg text-gray-800 font-extrabold dark:text-white flex">
                   Travel Agency E-Commerce
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
                   Contributions
                 </h3>
-                <div class="grid">
+                <div class="grid h-[150px]">
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
@@ -91,7 +95,7 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                  className="mt-2 flex flex-wrap"
+                  className="mt-2 flex flex-wrap h-[90px]"
                   aria-label="Technologies used"
                 >
                   <li className="mr-1.5 mt-2">
@@ -162,13 +166,13 @@ function Project() {
                 </div>
               </div>
               <div class="px-6 py-4 h-[450px]">
-                <h1 class="text-lg text-gray-800 dark:text-white flex">
-                  Company Website
+                <h1 class="text-lg text-gray-800 font-extrabold dark:text-white flex">
+                  Company Websites
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
                   Contributions
                 </h3>
-                <div class="grid">
+                <div class="grid h-[150px]">
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
@@ -224,7 +228,7 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                  className="mt-2 flex flex-wrap"
+                  className="mt-2 flex flex-wrap h-[90px]"
                   aria-label="Technologies used"
                 >
                   <li className="mr-1.5 mt-2">
@@ -290,18 +294,18 @@ function Project() {
                   ></path>
                 </svg>
                 <div class="mx-3 text-lg font-semibold text-white dark:text-gray-800">
-                  Starfleet
+                  EJ Sport
                 </div>
               </div>
               <div class="px-6 py-4 h-[450px]">
-                <h1 class="text-lg text-gray-800 dark:text-white flex">
-                  Driverless vehicle fleet monitoring tool
+                <h1 class="text-lg text-gray-800 font-extrabold dark:text-white flex">
+                  Polling Website
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
                   {" "}
                   Contributions
                 </h3>
-                <div class="grid">
+                <div class="grid h-[150px]">
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
@@ -316,7 +320,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Designing and building new components
+                    Implement User Interface Design into Code using PHP
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -332,7 +336,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Writing unit tests using Jest
+                    Develop the website using Laravel Framework
                   </div>
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -348,7 +352,23 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Using Redux to manage state
+                    Website Maintenance and Database Scheduling
+                  </div>
+                  <div class="dark:text-gray-400">
+                    <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        class="w-3 h-3"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    Deploying website in Shared Hosting
                   </div>
                 </div>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
@@ -356,14 +376,9 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                  className="mt-2 flex flex-wrap"
+                  className="mt-2 flex flex-wrap h-[90px]"
                   aria-label="Technologies used"
                 >
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      React
-                    </div>
-                  </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                       Laravel
@@ -371,7 +386,7 @@ function Project() {
                   </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      SCSS
+                      Tailwind
                     </div>
                   </li>
                   <li className="mr-1.5 mt-2">
@@ -431,14 +446,14 @@ function Project() {
                 </div>
               </div>
               <div class="px-6 py-4 h-[450px]">
-                <h1 class="text-lg text-gray-800 dark:text-white flex">
+                <h1 class="text-lg text-gray-800 font-extrabold dark:text-white flex">
                   Marketing website
                 </h1>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
                   {" "}
                   Contributions
                 </h3>
-                <div class="grid">
+                <div class="grid h-[150px]">
                   <div class="dark:text-gray-400">
                     <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
@@ -485,7 +500,7 @@ function Project() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Create and develop new pages 
+                    Create and develop new pages
                   </div>
                 </div>
                 <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
@@ -493,7 +508,7 @@ function Project() {
                   Technologies
                 </h3>
                 <ul
-                  className="mt-2 flex flex-wrap"
+                  className="mt-2 flex flex-wrap h-[90px]"
                   aria-label="Technologies used"
                 >
                   <li className="mr-1.5 mt-2">

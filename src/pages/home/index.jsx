@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import logo from "../../assets/images/profile2.jpg";
 import TextTyping from "./texTyping";
 import "../../App.css";
@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 function Home() {
   const buttonRef = useRef();
+  useEffect(() => {
+    document.title = "About Page";
+  }, []);
   return (
     <div className="absolute flex flex-col gap-5 justify-center items-center w-full 2xl:w-4/5">
       <Helmet>
@@ -31,10 +34,11 @@ function Home() {
             "Fullstack Developer",
             "Frontend Developer",
             "Backend Developer",
+            "Mobile Developer"
           ]}
         />
         <h4 className="text-[18px] lg:text-[20px] mb-[30px]">
-          Laravel | React | NodeJS
+          Laravel | React | NodeJS | Flutter
         </h4>
         <Link to="/project">
           <button class="bg-white text-black font-bold py-3 px-5 mt-3 rounded items-center w-3/4">
