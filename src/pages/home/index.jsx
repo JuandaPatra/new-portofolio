@@ -26,7 +26,7 @@ function Home() {
 
       <div className=" text-center text-white  font-bold tracking-wide ">
         <h1 className="mb-3 text-[30px] lg:text-[40px]">
-          Hi I'm Rahmad Juanda Patra
+          Hi I'm R. Juanda Patra
         </h1>
         <TextTyping
           className="block my-4 text-[25px] lg:text-[30px]"

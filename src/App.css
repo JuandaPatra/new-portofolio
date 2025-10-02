@@ -32,6 +32,11 @@ body{
   color: #61dafb;
 }
 
+.rocketIcons{
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -43,7 +48,7 @@ body{
 
 @keyframes blinking {
   from {
-    color: #f92672;
+    color: rgb(15 118 110 / var(--tw-text-opacity));
   }
   to {
     color: transparent;

@@ -1,4 +1,5 @@
 import {useRef, useState,useEffect} from 'react'
+import rocketIcon from '../../assets/images/rocket_24.svg'
 function TextTyping(props){
     const [textIndex, setTextIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
@@ -58,7 +59,7 @@ function TextTyping(props){
       return (
         <span className={props.className}>
           {displayedTextRef.current}
-          <span className="cursor">|</span>
+          <span className="cursor"> <img src={rocketIcon} alt="" className='rocketIcons' /> </span>
         </span>
       );
 

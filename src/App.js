@@ -19,7 +19,7 @@ import Project from "./pages/project";
 function App() {
   const [token, setToken] = useState();
   const particlesInit = async (main) => {
-    console.log(main);
+    // console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -96,7 +96,7 @@ function App() {
         <div className=" h-full w-full container-lg">
           <div className="absolute z-10 w-full h-full">
             <Header />
-            <main className="min-h-[94%] py-8 2xl:w-4/5 m-auto">
+            <main className="min-h-[84%] py-8 w-full 2xl:w-4/5 m-auto">
               <BrowserRouter>
                 <Routes>
                   <Route path="/" element={<Home />} />
