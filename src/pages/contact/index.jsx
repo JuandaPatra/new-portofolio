@@ -30,14 +30,12 @@ function Contact() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(`name : ${name}, value: ${value}`);
     let errorName = state.errorName;
     let errorMessage = state.errorMessage;
     let errorEmail = state.errorEmailMessage;
 
     if (name === "name") {
       errorName = !validationName(value);
-      console.log(errorName, 'error name sesudah')
     }else if(name === 'message'){
       errorMessage = !validationComment(value);
     }else if(name === 'email'){
@@ -58,31 +56,52 @@ function Contact() {
       isButtonEnable : isButtonEnable,
     });
 
-    console.log(state);
   };
 
-  function emailButton() {
-    let name = state.name;
-    let email = state.email;
-    let message = state.message;
-    const API = `https://api.portofolio.juandap.com/api/send`;
+  // function emailButton() {
+  //   let name = state.name;
+  //   let email = state.email;
+  //   let message = state.message;
+  //   const API = `https://api.portofolio.juandap.com/api/send`;
 
-    axios
-      .post(API, {
-        name,
-        email,
-        message,
-      })
-      .then((res) => {
-        // console.log(res);
-        setOpenPopup(true);
-        setState({
-          name: "",
-          email: "",
-          message: "",
-        });
-      })
-      .catch((err) => console.log(err));
+  //   axios
+  //     .post(API, {
+  //       name,
+  //       email,
+  //       message,
+  //     })
+  //     .then((res) => {
+  //       // console.log(res);
+  //       setOpenPopup(true);
+  //       setState({
+  //         name: "",
+  //         email: "",
+  //         message: "",
+  //       });
+  //     })
+  //     .catch((err) => console.log(err));
+  // }
+
+  async function emailButton() {
+    const { name, email, message } = state;
+    const API ='';
+    try {
+      await axios.post(API, {name,email,message})
+      setOpenPopup(true);
+    setState((prev) => ({
+      ...prev,
+      name: "",
+      email: "",
+      message: "",
+      errorName: true,
+      errorEmail: true,
+      errorMessage: true,
+      isButtonEnable: false,
+    }));
+    } catch (error) {
+      console.error("Failed to send message:", error);
+    }
+    
   }
   return (
     <>
