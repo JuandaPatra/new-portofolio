@@ -65,7 +65,7 @@ function Contact() {
     let name = state.name;
     let email = state.email;
     let message = state.message;
-    const API = `https://api.portofolio.juandap.com/api/send`;
+    const API = `${process.env.REACT_APP_API_URL}send`;
 
     axios
       .post(API, {
@@ -92,15 +92,15 @@ function Contact() {
         Get in touch
       </h3>
       <div></div>
-      <div class="flex  h-[550px] px-4 pb-2 pt-0 bg-transparent lg:justify-center">
-        <div class="flex flex-col overflow-hidden bg-white rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md w-full md:w-auto">
-          <div class="p-3 lg:p-5  bg-white  md:flex-1">
+      <div className="flex  h-[550px] px-4 pb-2 pt-0 bg-transparent lg:justify-center">
+        <div className="flex flex-col overflow-hidden bg-white rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md w-full md:w-auto">
+          <div class="p-3 lg:p-5  bg-gray-800  md:flex-1">
             <div className="flex flex-wrap justify-center">
               <div className="basis-full lg:basis-1/2">
-                <div class="group relative w-100 md:w-80 lg:w-[95%] ">
+                <div className="group relative w-100 md:w-80 lg:w-[95%] ">
                   <label
                     for="1"
-                    class="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
+                    className="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
                   >
                     Your Name
                   </label>
@@ -111,12 +111,12 @@ function Contact() {
                     value={state.name}
                     name="name"
                     onChange={handleChange}
-                    class="peer h-10 w-full rounded-md bg-gray-50 px-4 font-thin outline-none border-2 border-teal-300 drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400 focus:border-none"
+                    className="peer h-10 w-full rounded-md bg-gray-50 px-4 font-normal outline-none border-2 border-teal-300 drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400 focus:border-none"
                   />
                 </div>
               </div>
               <div className="basis-full lg:basis-1/2">
-                <div class="group relative w-100 md:w-80 lg:w-[96%] ">
+                <div className="group relative w-100 md:w-80 lg:w-[96%] ">
                   <label
                     for="2"
                     class="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
@@ -130,7 +130,7 @@ function Contact() {
                     placeholder="input your email"
                     value={state.email}
                     onChange={handleChange}
-                    class="peer h-10 w-full rounded-md bg-gray-50 px-4 font-thin outline-none border-2 border-teal-300 drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400 focus:border-none"
+                    className="peer h-10 w-full rounded-md bg-gray-50 px-4 font-normal outline-none border-2 border-teal-300 drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400 focus:border-none"
                   />
                 </div>
                 {state.errorEmailMessage && (
@@ -140,7 +140,7 @@ function Contact() {
               <div className=" basis-full mt-[10px] group">
                 <label
                   for="1"
-                  class="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
+                  className="block w-full pb-1 text-sm font-medium text-teal-300 transition-all duration-200 ease-in-out group-focus-within:text-blue-400"
                 >
                   Message
                 </label>
@@ -152,14 +152,14 @@ function Contact() {
                   placeholder="write your messages"
                   value={state.message}
                   onChange={handleChange}
-                  className="w-full lg:w-[98%] rounded-md bg-gray-50 px-4 font-thin outline-none drop-shadow-sm border-2 border-teal-300 transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400 focus:border-none"
+                  className="w-full lg:w-[98%] rounded-md bg-gray-50 px-4 font-normal outline-none drop-shadow-sm border-2 border-teal-300 transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400 focus:border-none resize-y max-h-[210px]"
                 ></textarea>
               </div>
               <div className="basis-full mt-[10px] group">
                 <div className="">
                   <button
                     onClick={emailButton}
-                    className="text-white flex mx-auto bg-teal-400 dark:text-black dark:bg-white border-0 py-2 px-8 focus:outline-none rounded text-lg disabled:bg-gray-400 "
+                    className="text-white flex mx-auto bg-teal-400 dark:text-black dark:bg-white border-0 py-3 px-6 focus:outline-none rounded-full text-base disabled:bg-gray-400 "
                     disabled={!state.isButtonEnable}
                   >
                     Submit
@@ -167,12 +167,12 @@ function Contact() {
                 </div>
               </div>
               <div className=" basis-full mt-[20px]">
-                <p class=" text-center">
+                <p className=" text-center">
                   <span className="text-teal-700 text-center text-lg">OR</span>
                 </p>
-                <p class=" text-center mt-[15px]">
+                <p className=" text-center mt-[15px]">
                   <span className="text-teal-700 text-center text-sm">
-                    email to : <a href="">patrajuanda10@gmail.com</a>
+                    email to : <a href="#">patrajuanda10@gmail.com</a>
                   </span>
                 </p>
               </div>
