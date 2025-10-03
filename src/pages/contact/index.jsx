@@ -159,7 +159,7 @@ function Contact() {
                 <div className="">
                   <button
                     onClick={emailButton}
-                    className="text-white flex mx-auto bg-teal-400 dark:text-black dark:bg-white border-0 py-3 px-6 focus:outline-none rounded-full text-base disabled:bg-gray-400 "
+                    className="text-white flex mx-auto bg-teal-400 dark:text-black dark:bg-white border-0 py-3 px-14 focus:outline-none rounded-full text-base disabled:bg-gray-400 "
                     disabled={!state.isButtonEnable}
                   >
                     Submit
@@ -168,10 +168,10 @@ function Contact() {
               </div>
               <div className=" basis-full mt-[20px]">
                 <p className=" text-center">
-                  <span className="text-teal-700 text-center text-lg">OR</span>
+                  <span className="text-teal-300 text-center text-lg">OR</span>
                 </p>
                 <p className=" text-center mt-[15px]">
-                  <span className="text-teal-700 text-center text-sm">
+                  <span className="text-teal-300 text-center text-sm">
                     email to : <a href="#">patrajuanda10@gmail.com</a>
                   </span>
                 </p>

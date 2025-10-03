@@ -34,13 +34,13 @@ function Header() {
             >
               <a
                 href="/"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded "
+                className="p-2 lg:px-4 md:mx-2 text-white rounded "
               >
                 Home
               </a>
               <a
                 href="/about"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 About Me
               </a>
@@ -53,13 +53,13 @@ function Header() {
               </a> */}
               <a
                 href="/project"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 Projects
               </a>
               <a
                 href="/contact"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 Contact
               </a>
