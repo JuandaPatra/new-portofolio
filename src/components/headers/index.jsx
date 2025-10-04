@@ -13,13 +13,13 @@ function Header() {
   return (
     <>
       <div className="header-2">
-        <nav className="bg-white backdrop-blur-sm py-2 px-5 w-full md:py-4">
+        <nav className="bg-gray-800 backdrop-blur-sm py-2 px-5 w-full md:py-4">
           <div className="container px-4 mx-auto md:flex md:items-center">
             <div className="flex justify-between items-center">
               <a href="/" className="font-bold text-xl text-teal-700">
                 JP
               </a>
-              <span className=" ml-4">R. Juanda Patra</span>
+              <span className=" ml-4 text-white">R. Juanda Patra</span>
               <button
                 className="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
                 id="navbar-toggle"
@@ -34,13 +34,13 @@ function Header() {
             >
               <a
                 href="/"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded "
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 Home
               </a>
               <a
                 href="/about"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 About Me
               </a>
@@ -53,13 +53,13 @@ function Header() {
               </a> */}
               <a
                 href="/project"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 Projects
               </a>
               <a
                 href="/contact"
-                className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+                className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
               >
                 Contact
               </a>

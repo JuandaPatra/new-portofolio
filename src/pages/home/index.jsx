@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import logo from "../../assets/images/profile2.jpg";
+import logo from "../../assets/images/profile2.webp";
 import TextTyping from "./texTyping";
 import "../../App.css";
 import { Link } from "react-router-dom";
@@ -41,7 +41,7 @@ function Home() {
           Laravel | React | NodeJS | Flutter
         </h4>
         <Link to="/project">
-          <button class="bg-white text-black font-bold py-3 px-5 mt-3 rounded items-center w-3/4">
+          <button class="bg-white text-black font-bold py-3 px-5 mt-3 rounded-full items-center w-3/4">
             <div className="px-2 inline">
               <span className=" mr-4">Know More </span>
               <span className=" inline-block">

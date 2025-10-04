@@ -1,4 +1,4 @@
-import logo from "../../assets/images/profile2.jpg";
+import logo from "../../assets/images/profile2.webp";
 import {Helmet} from "react-helmet"
 function About() {
   return (
