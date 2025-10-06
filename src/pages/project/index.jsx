@@ -10,8 +10,8 @@ function Project() {
       </h3>
 
       <div className=" px-3 lg:px-0 ">
-        <div className="flex flex-row flex-wrap">
-          <div className="basis-full md:basis-1/2 lg:basis-1/3 mb-10 ">
+        <div className="flex flex-row flex-wrap gap-1">
+          <div className="basis-full md:basis-1/2 tablet:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10  ">
             <div class="group max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3 bg-teal-700 dark:bg-white">
                 <svg
@@ -145,7 +145,7 @@ function Project() {
             </div>
           </div>
 
-          <div className=" basis-full md:basis-1/2 lg:basis-1/3 mb-10">
+          <div className=" basis-full md:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10 ">
             <div class="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-700 dark:bg-white">
                 <svg
@@ -277,7 +277,7 @@ function Project() {
               </div>
             </div>
           </div>
-          <div className=" basis-full md:basis-1/2 lg:basis-1/3 mb-10">
+          <div className=" basis-full md:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10 ">
             <div class="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-700 dark:bg-white">
                 <svg
@@ -425,7 +425,7 @@ function Project() {
               </div>
             </div>
           </div>
-          <div className=" basis-full md:basis-1/2 lg:basis-1/3 mb-10">
+          <div className=" basis-full md:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10 ">
             <div class="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-700 dark:bg-white">
                 <svg
