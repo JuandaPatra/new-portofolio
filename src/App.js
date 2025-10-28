@@ -96,7 +96,7 @@ function App() {
         <div className=" h-full w-full container-lg">
           <div className="absolute z-10 w-full h-full">
             <Header />
-            <main className="min-h-[84%] py-8 w-full 2xl:w-4/5 m-auto">
+            <main className="min-h-[84%] py-8 w-full md:w-2/3 2xl:w-2/3 m-auto">
               <BrowserRouter>
                 <Routes>
                   <Route path="/" element={<Home />} />

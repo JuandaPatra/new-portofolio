@@ -10,9 +10,9 @@ function Project() {
       </h3>
 
       <div className=" px-3 lg:px-0 ">
-        <div className="flex flex-row flex-wrap gap-1">
+        <div className="flex flex-row flex-wrap">
           <div className="basis-full md:basis-1/2 tablet:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10  ">
-            <div class="group max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <div class="group max-w-sm  w-[97%]  mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3 bg-teal-700 dark:bg-white">
                 <svg
                   class="w-6 h-6 fill-current text-white dark:text-gray-800"
@@ -278,7 +278,7 @@ function Project() {
             </div>
           </div>
           <div className=" basis-full md:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10 ">
-            <div class="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <div class="prose max-w-xl  mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
               <div class="flex items-center px-6 py-3  bg-teal-700 dark:bg-white">
                 <svg
                   class="w-6 h-6 fill-current text-white dark:text-gray-800"
@@ -293,28 +293,28 @@ function Project() {
                     d="M7 5V4C7 2.89545 7.89539 2 9 2H15C16.1046 2 17 2.89545 17 4V5H20C21.6569 5 23 6.34314 23 8V18C23 19.6569 21.6569 21 20 21H4C2.34314 21 1 19.6569 1 18V8C1 6.34314 2.34314 5 4 5H7ZM9 4H15V5H9V4ZM4 7C3.44775 7 3 7.44769 3 8V14H21V8C21 7.44769 20.5522 7 20 7H4ZM3 18V16H21V18C21 18.5523 20.5522 19 20 19H4C3.44775 19 3 18.5523 3 18Z"
                   ></path>
                 </svg>
-                <div class="mx-3 text-lg font-semibold text-white dark:text-gray-800">
+                <div className="mx-3 text-lg font-semibold text-white dark:text-gray-800">
                   EJ Sport
                 </div>
               </div>
-              <div class="px-6 py-4 h-[450px]">
-                <h1 class="text-lg text-gray-800 font-extrabold dark:text-white flex">
+              <div className="px-6 py-4 h-[450px]">
+                <h1 className="text-lg text-gray-800 font-extrabold dark:text-white flex">
                   Polling Website
                 </h1>
-                <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
+                <h3 className="mt-4 mb-2 dark:text-gray-100 text-xl">
                   {" "}
                   Contributions
                 </h3>
-                <div class="grid h-[150px]">
-                  <div class="dark:text-gray-400">
-                    <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <div className="grid h-[150px]">
+                  <div className="dark:text-gray-400">
+                    <span className="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
                         fill="none"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="w-3 h-3"
+                        className="w-3 h-3"
                         viewBox="0 0 24 24"
                       >
                         <path d="M20 6L9 17l-5-5"></path>
@@ -322,15 +322,15 @@ function Project() {
                     </span>
                     Implement User Interface Design into Code using PHP
                   </div>
-                  <div class="dark:text-gray-400">
-                    <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <div className="dark:text-gray-400">
+                    <span className="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
                         fill="none"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="w-3 h-3"
+                        className="w-3 h-3"
                         viewBox="0 0 24 24"
                       >
                         <path d="M20 6L9 17l-5-5"></path>
@@ -338,15 +338,15 @@ function Project() {
                     </span>
                     Develop the website using Laravel Framework
                   </div>
-                  <div class="dark:text-gray-400">
-                    <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <div className="dark:text-gray-400">
+                    <span className="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
                         fill="none"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="w-3 h-3"
+                        className="w-3 h-3"
                         viewBox="0 0 24 24"
                       >
                         <path d="M20 6L9 17l-5-5"></path>
@@ -354,15 +354,15 @@ function Project() {
                     </span>
                     Website Maintenance and Database Scheduling
                   </div>
-                  <div class="dark:text-gray-400">
-                    <span class="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <div className="dark:text-gray-400">
+                    <span className="text-gray-500 dark:text-gray-50 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                       <svg
                         fill="none"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="w-3 h-3"
+                        className="w-3 h-3"
                         viewBox="0 0 24 24"
                       >
                         <path d="M20 6L9 17l-5-5"></path>
@@ -371,7 +371,7 @@ function Project() {
                     Deploying website in Shared Hosting
                   </div>
                 </div>
-                <h3 class="mt-4 mb-2 dark:text-gray-100 text-xl">
+                <h3 className="mt-4 mb-2 dark:text-gray-100 text-xl">
                   {" "}
                   Technologies
                 </h3>
@@ -405,10 +405,10 @@ function Project() {
                     </div>
                   </li>
                 </ul>
-                <div class="flex items-center mt-4 text-gray-700 dark:text-gray-200">
-                  <a class="mr-2 text-gray-800 cursor-pointer dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
+                <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
+                  <a className="mr-2 text-gray-800 cursor-pointer dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
                     <svg
-                      class="w-5 h-5 fill-current"
+                      className="w-5 h-5 fill-current"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -418,7 +418,7 @@ function Project() {
                       <path d="M14.8284 10.5857C15.2189 10.1952 15.2189 9.56199 14.8284 9.17147C14.4379 8.78094 13.8047 8.78094 13.4142 9.17147L9.17154 13.4141C8.78101 13.8046 8.78101 14.4378 9.17154 14.8283C9.56206 15.2188 10.1952 15.2188 10.5857 14.8283L14.8284 10.5857Z"></path>
                     </svg>
                   </a>
-                  <div class="ml-2 text-sm hover:cursor-pointer">
+                  <div className="ml-2 text-sm hover:cursor-pointer">
                     Not available (Internal)
                   </div>
                 </div>
@@ -426,10 +426,10 @@ function Project() {
             </div>
           </div>
           <div className=" basis-full md:basis-1/2 lg:basis-1/2 xl:basis-1/3 mb-10 ">
-            <div class="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
-              <div class="flex items-center px-6 py-3  bg-teal-700 dark:bg-white">
+            <div className="prose max-w-sm w-full lg:w-96 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+              <div className="flex items-center px-6 py-3  bg-teal-700 dark:bg-white">
                 <svg
-                  class="w-6 h-6 fill-current text-white dark:text-gray-800"
+                  className="w-6 h-6 fill-current text-white dark:text-gray-800"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
